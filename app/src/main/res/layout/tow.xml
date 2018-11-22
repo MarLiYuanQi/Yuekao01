@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frams"
+        android:layout_width="match_parent"
+        android:layout_weight="8"
+        android:layout_height="0dp"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/groups"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/shouye"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/fenlei"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:text="分类"/>
+    </RadioGroup>
+</LinearLayout>
